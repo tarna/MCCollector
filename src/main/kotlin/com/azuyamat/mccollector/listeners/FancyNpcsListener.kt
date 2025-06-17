@@ -7,7 +7,7 @@ import de.oliver.fancynpcs.api.events.NpcInteractEvent
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 
-class FancyNpcsListener : Listener {
+internal class FancyNpcsListener : Listener {
     @EventHandler
     fun onClick(event: NpcInteractEvent) {
         if (!CollectorRegistry.initialized) return
